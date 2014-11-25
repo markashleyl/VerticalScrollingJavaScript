@@ -1,5 +1,3 @@
-$(document).ready(function() {
-
 	var delayb4scroll=2000 //delaying before marquee starts on page
 	var marqueespeed=2 //Specify marquee scroll speed (larger is faster 1-10)
 	var pauseit=1 //Pause marquee on Mousever
@@ -33,4 +31,3 @@ else if (window.attachEvent)
 window.attachEvent("onload", initializemarquee)
 else if (document.getElementById)
 window.onload=initializemarquee
-});
